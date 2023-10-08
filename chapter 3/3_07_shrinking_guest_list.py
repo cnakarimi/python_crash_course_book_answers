@@ -5,7 +5,7 @@ def print_invitation(guest_list):
 
 guest_list = ['Sadeq', 'Erfan', 'Setareh']
 print_invitation(guest_list)
-print("Oh no! Setareh was enslaved by the Epaphroditus. He can't come to diner!")
+print("Oh no! Setareh was enslaved by the Soheil. He can't come to diner!")
 guest_list.remove('Setareh')
 guest_list.append('Soheil')
 print_invitation(guest_list)
