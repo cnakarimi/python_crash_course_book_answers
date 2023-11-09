@@ -16,8 +16,8 @@ class User():
         print('Last name : ', self.last_name.title())
 
     def greet(self):
-        print('Hello ', self.first_name.title() + '' +
-              self.last_name.title() + 'How are you doing?')
+        print('Hello ', self.first_name.title() + ' ' +
+              self.last_name.title() + ' how are you doing?')
 
 
 users = [User("patrick", "nieri"),
